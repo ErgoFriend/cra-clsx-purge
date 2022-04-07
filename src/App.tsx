@@ -10,6 +10,10 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        {/* DangerousKeywordが公開されるまでは隠したい */}
+        {/* <div className={styles.DangerousKeyword}>
+          <p>DangerousKeyword</p>
+        </div> */}
         <a
           className={styles.AppLink}
           href="https://reactjs.org"
