@@ -3902,6 +3902,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "clsx@npm:1.1.1"
+  checksum: ff052650329773b9b245177305fc4c4dc3129f7b2be84af4f58dc5defa99538c61d4207be7419405a5f8f3d92007c954f4daba5a7b74e563d5de71c28c830063
+  languageName: node
+  linkType: hard
+
 "co@npm:^4.6.0":
   version: 4.6.0
   resolution: "co@npm:4.6.0"
@@ -4188,6 +4195,7 @@ __metadata:
     "@types/node": ^16.11.26
     "@types/react": ^17.0.43
     "@types/react-dom": ^17.0.14
+    clsx: ^1.1.1
     react: ^18.0.0
     react-dom: ^18.0.0
     react-scripts: 5.0.0

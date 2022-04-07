@@ -1,13 +1,18 @@
-import React from 'react';
+import {useReducer} from 'react';
+import clsx from 'clsx'
 import logo from './logo.svg';
 import styles from  './App.module.css';
 
+
 function App() {
+  const [isActive, toggleActive] = useReducer(isActive => !isActive, false)
+
   return (
     <div className={styles.App}>
       <header className={styles.AppHeader}>
         <img src={logo} className={styles.AppLogo} alt="logo" />
-        <p>
+        <button onClick={toggleActive}>toggleActive</button>
+        <p className={clsx(styles.text, isActive && styles.isActive)}>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         {/* DangerousKeywordが公開されるまでは隠したい */}

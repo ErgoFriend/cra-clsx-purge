@@ -6,6 +6,14 @@
   text-align: center;
 }
 
+.text {
+  font-size: 1rem;
+}
+
+.isActive {
+  color: #61dafb;
+}
+
 .AppLogo {
   height: 40vmin;
   pointer-events: none;
